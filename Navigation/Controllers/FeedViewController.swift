@@ -7,6 +7,10 @@
 
 import UIKit
 
+struct Post {
+    var title: String
+}
+
 class FeedViewController: UIViewController {
 
     private lazy var actionButton: UIButton = {
@@ -42,7 +46,9 @@ class FeedViewController: UIViewController {
     }
     
     @objc func buttonPressed(_ sender: UIButton) {
+        let postObject = Post(title: "Шок")
         let postViewController = PostViewController()
+        postViewController.postTitle = postObject
         
         postViewController.modalTransitionStyle = .flipHorizontal
         postViewController.modalPresentationStyle = .fullScreen

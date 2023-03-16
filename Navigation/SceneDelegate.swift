@@ -22,15 +22,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let window = UIWindow(windowScene: scene)
         
         let feedViewController = FeedViewController()
-//        let feedViewController = ViewController()
-//        feedViewController.title = "Лента"
-//        feedViewController.view.backgroundColor = .systemBackground
-//        feedViewController.view.addSubview(actionButton)
         
         let profileViewController = ProfileViewController()
-//        let profileViewController = ViewController()
-//        profileViewController.title = "Профиль"
-//        profileViewController.view.backgroundColor = .systemGray6
         
         let tabBarController = UITabBarController()
         

@@ -15,6 +15,7 @@
 		DD085C8029BD1B9F000579F0 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD085C7F29BD1B9F000579F0 /* PostViewController.swift */; };
 		DD085C8329BD2596000579F0 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD085C8229BD2596000579F0 /* FeedViewController.swift */; };
 		DD085C8529BD25EB000579F0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD085C8429BD25EB000579F0 /* ProfileViewController.swift */; };
+		DD85647229C3B38F001B3302 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD85647129C3B38F001B3302 /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		DD085C7F29BD1B9F000579F0 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		DD085C8229BD2596000579F0 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		DD085C8429BD25EB000579F0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DD85647129C3B38F001B3302 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				DD085C8229BD2596000579F0 /* FeedViewController.swift */,
 				DD085C8429BD25EB000579F0 /* ProfileViewController.swift */,
 				DD085C7F29BD1B9F000579F0 /* PostViewController.swift */,
+				DD85647129C3B38F001B3302 /* InfoViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				DD085C8529BD25EB000579F0 /* ProfileViewController.swift in Sources */,
 				DD085C8029BD1B9F000579F0 /* PostViewController.swift in Sources */,
 				DD085C7029BCFB13000579F0 /* ViewController.swift in Sources */,
+				DD85647229C3B38F001B3302 /* InfoViewController.swift in Sources */,
 				DD085C8329BD2596000579F0 /* FeedViewController.swift in Sources */,
 				DD085C6C29BCFB13000579F0 /* AppDelegate.swift in Sources */,
 				DD085C6E29BCFB13000579F0 /* SceneDelegate.swift in Sources */,
@@ -295,6 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H89UK52MLA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Navigation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -322,6 +327,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H89UK52MLA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Navigation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
